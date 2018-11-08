@@ -159,8 +159,6 @@ async function main() {
 
     ) );
 
-    console.log( approvalReport );
-
     fs.writeFileSync( path.resolve( __dirname, "approvals.csv" ), approvalReport );
 
 }
